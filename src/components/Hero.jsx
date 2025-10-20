@@ -19,7 +19,7 @@ const Hero = () => {
 
           {/* subheading text */}
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I am a computer science student interested in full-stack development, 3D modeling, <br className="sm:block hidden" />
+            I am a computer science student interested in full-stack development, 3D modeling, 
             and creating interactive web applications.
           </p>
         </div>

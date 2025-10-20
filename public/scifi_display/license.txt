@@ -1,0 +1,11 @@
+Model Information:
+* title:	sci-fi head up display
+* source:	https://sketchfab.com/3d-models/sci-fi-head-up-display-c5afca1ec19243e48b1faf1769e08ba5
+* author:	anuhya (https://sketchfab.com/anuhysai)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "sci-fi head up display" (https://sketchfab.com/3d-models/sci-fi-head-up-display-c5afca1ec19243e48b1faf1769e08ba5) by anuhya (https://sketchfab.com/anuhysai) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
