@@ -16,10 +16,12 @@ import javascript from "./tech/javascript.png";
 import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
-import redux from "./tech/redux.png";
+import ue5 from "./tech/ue5.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import godot from "./tech/godot.png";
+
 
 
 import icode from "./company/icode.png";
@@ -32,6 +34,7 @@ import tripguide from "./tripguide.png";
 
 export {
   logo,
+  godot,
   backend,
   creator,
   mobile,
@@ -48,7 +51,6 @@ export {
   mongodb,
   nodejs,
   reactjs,
-  redux,
   tailwind,
   typescript,
   threejs,
@@ -57,4 +59,5 @@ export {
   carrent,
   jobit,
   tripguide,
+  ue5
 };

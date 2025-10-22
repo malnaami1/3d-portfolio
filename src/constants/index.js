@@ -8,19 +8,19 @@ import {
   html,
   css,
   reactjs,
-  redux,
   tailwind,
   nodejs,
   mongodb,
   git,
   figma,
-  docker,
   icode,
   acm,
   carrent,
   jobit,
   tripguide,
   threejs,
+  ue5,
+  godot,
 } from "../assets";
 
 export const navLinks = [
@@ -82,6 +82,12 @@ const technologies = [
     name: "React JS",
     icon: reactjs,
   },
+
+  {
+    name: "Unreal Engine",
+    icon: ue5,
+  },
+
   {
     name: "Tailwind CSS",
     icon: tailwind,
@@ -105,6 +111,10 @@ const technologies = [
   {
     name: "figma",
     icon: figma,
+  },
+  {
+    name: "GoDot Engine",
+    icon: godot,
   },
 ];
 
