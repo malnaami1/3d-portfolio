@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion';
 import { styles } from '../styles';
 import { ComputersCanvas } from './canvas';
+import pointingArrow from '../assets/pointingArrow.png';
 
 const Hero = () => {
   return (
@@ -19,9 +20,24 @@ const Hero = () => {
 
           {/* subheading text */}
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            a computer science student interested in full-stack engineering, game development, 
+            a computer science student interested in full-stack engineering, game development,
             and creating scalable & interactive applications.
           </p>
+
+          <div className="mt-8 flex justify-end items-center">
+            <img
+              src={pointingArrow}
+              alt='pointing arrow'
+              className="w-32 h-44"
+            />
+
+            <img
+              src="https://i.imgur.com/9ahXWY6.gif"
+              alt='pointing arrow'
+              className="w-25 h-15 mt-16"
+            />
+          </div>
+
         </div>
       </div>
 
@@ -30,18 +46,18 @@ const Hero = () => {
       <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-end items-center">
         <a href="#about">
           <div className="w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2 mr-10">
-            
+
             {/* Scroll button loop animation */}
-            <motion.div 
-            animate={{
-              y: [0, 24, 0]
-            }}
-            transition={{
-              duration: 1.5,
-              repeat: Infinity,
-              repeatType: 'loop'
-            }}
-            className="w-3 h-3 rounded-full bg-secondary mb-1"
+            <motion.div
+              animate={{
+                y: [0, 24, 0]
+              }}
+              transition={{
+                duration: 1.5,
+                repeat: Infinity,
+                repeatType: 'loop'
+              }}
+              className="w-3 h-3 rounded-full bg-secondary mb-1"
             />
 
           </div>
