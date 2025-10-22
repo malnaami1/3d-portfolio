@@ -14,18 +14,40 @@ const Hero = () => {
         <div>
           {/* heading text */}
           <h1 className={`${styles.heroHeadText} text-white`}>
-            Hi, I'm <span className="text-[#915eff]"> Maryam </span>
+            Hi! I'm <span className="text-[#915eff]"> Maryam</span>
           </h1>
 
           {/* subheading text */}
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I am a computer science student interested in full-stack development, 3D modeling, 
-            and creating interactive web applications.
+            a computer science student interested in full-stack engineering, game development, 
+            and creating scalable & interactive applications.
           </p>
         </div>
       </div>
 
       <ComputersCanvas />
+
+      <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-end items-center">
+        <a href="#about">
+          <div className="w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2 mr-10">
+            
+            {/* Scroll button loop animation */}
+            <motion.div 
+            animate={{
+              y: [0, 24, 0]
+            }}
+            transition={{
+              duration: 1.5,
+              repeat: Infinity,
+              repeatType: 'loop'
+            }}
+            className="w-3 h-3 rounded-full bg-secondary mb-1"
+            />
+
+          </div>
+
+        </a>
+      </div>
     </section>
   )
 }

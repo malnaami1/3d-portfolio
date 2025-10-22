@@ -33,8 +33,8 @@ const Computers = ({ isMobile }) => {
       <primitive
         object={scene} 
         scale={isMobile ? 1.5 : 2.5}
-        position={isMobile ? [0, -2, -0.3] : [0, -4, -0.3]}
-        rotation={[-0.08, 2.2, 0.1]}
+        position={isMobile ? [0, -2, -0.3] : [0, -3.8, -0.3]}
+        rotation={[-0.08, 1.2, 0.1]}
       />
     </group>
   );
@@ -68,11 +68,11 @@ const ComputersCanvas = () => {
       camera={{ position: [20, 3, 5], fov: 25 }}
       gl={{ preserveDrawingBuffer: true }}
     >
-      <Suspense >
+      <Suspense fallback={<CanvasLoader />}>
         <OrbitControls
           enableZoom={false}
-          maxPolarAngle={Math.PI / 2}
-          minPolarAngle={Math.PI / 2}
+          maxPolarAngle={Math.PI / 3}
+          minPolarAngle={Math.PI / 3}
         />
         <Computers isMobile={isMobile} />
       </Suspense>
