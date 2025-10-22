@@ -15,10 +15,8 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
+  icode,
+  acm,
   carrent,
   jobit,
   tripguide,
@@ -33,6 +31,10 @@ export const navLinks = [
   {
     id: "work",
     title: "Work",
+  },
+  {
+    id: "projects",
+    title: "Projects",
   },
   {
     id: "contact",
@@ -116,57 +118,31 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    title: "Instructor",
+    company_name: "iCode",
+    icon: icode,
+    iconBg: "black",
+    date: "Jan 2025 - May 2025",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Instructed students in game design and development using Unreal Engine 5, emphasizing both technical and creative aspects of modern interactive media.",
+      "Taught hands-on Blueprint scripting for gameplay logic, player mechanics, and interactive environments.",
+      "Implemented collision detection systems, animation blueprints, and cinematic sequencing to bring gameplay elements and narratives to life",
+      "Supervised the full game production pipeline, from concept and prototyping through polishing and final release, resulting in portfolio-ready Unreal Engine 5 games",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    title: "Full stack Engineer",
+    company_name: "ACM Projects",
+    icon: acm,
+    iconBg: "white",
+    date: "Aug 2025 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developing a responsive React/TypeScript UI for a developer logging platform, featuring AI-driven similar-log detection and automated solution recommendations",
+      "Collaborating with backend to integrate secure authentication, authorization, and user data workflows with Node.js, Express, and MongoDB, ensuring reliable access control.",
+      "Designing and optimizing RESTful APIs and database schemas for efficient log storage, search, and tagging, improving query performance and scalability.",
+      "Building backend services to integrate with AI/LLM APIs (CodeBERT, OpenAI) for automated markdown documentation and search, reducing manual logging time.",
     ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
+  }
 ];
 
 const testimonials = [
