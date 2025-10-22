@@ -27,11 +27,12 @@ import icode from "./company/icode.png";
 import acm from "./company/acm.png";
 
 
-import carrent from "./carrent.png";
+import devDiary from "./devDiary.png";
 import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import twodplatform from "./twodplatform.png";
 
 export {
+  twodplatform,
   logo,
   godot,
   backend,
@@ -54,8 +55,7 @@ export {
   threejs,
   icode,
   acm,
-  carrent,
+  devDiary,
   jobit,
-  tripguide,
   ue5
 };
