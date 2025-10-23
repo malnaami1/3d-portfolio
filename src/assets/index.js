@@ -21,6 +21,7 @@ import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 import godot from "./tech/godot.png";
 
+import linkedin from "./linkedin.png";
 
 
 import icode from "./company/icode.png";
@@ -33,6 +34,7 @@ import twodplatform from "./twodplatform.png";
 
 export {
   twodplatform,
+  linkedin,
   logo,
   godot,
   backend,

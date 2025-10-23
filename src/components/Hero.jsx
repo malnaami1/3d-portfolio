@@ -28,13 +28,13 @@ const Hero = () => {
             <img
               src={pointingArrow}
               alt='pointing arrow'
-              className="w-32 h-44"
+              className="w-32 h-44 hidden lg:block"
             />
 
             <img
               src="https://i.imgur.com/9ahXWY6.gif"
               alt='pointing arrow'
-              className="w-25 h-15 mt-16"
+              className="w-25 h-15 mt-16 hidden lg:block"
             />
           </div>
 

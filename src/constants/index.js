@@ -195,25 +195,25 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "2D Platformer",
+    name: "Knight Attack!",
     description:
-      "2D Platform game",
+      "Injustice, beware, its the Knight Attack! This is a 2D platform game where you play as the Knight in Silver Armor, scouring the land for any injustices (ehm, zombies!) and bringing light back once and for all.",
     tags: [
       {
-        name: "nextjs",
+        name: "Godot",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "GDScript",
         color: "green-text-gradient",
       },
       {
-        name: "css",
-        color: "pink-text-gradient",
+        name: "Python",
+        color: "orange-text-gradient",
       },
     ],
     image: twodplatform,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/malnaami1/knight-attack",
   },
 ];
 
