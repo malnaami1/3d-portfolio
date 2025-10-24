@@ -72,7 +72,7 @@ const Works = () => {
 
         >
 
-          Description here!
+          {/* Nothing for now */}
 
         </motion.p>
       </div>
