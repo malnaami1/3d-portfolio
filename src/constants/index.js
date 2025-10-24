@@ -16,7 +16,7 @@ import {
   icode,
   acm,
   devDiary,
-  jobit,
+  memoryLane,
   twodplatform,
   threejs,
   ue5,
@@ -48,15 +48,15 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Mobile App Developer",
     icon: mobile,
   },
   {
-    title: "UI/UX Engineer",
+    title: "Systems Programmer",
     icon: backend,
   },
   {
-    title: "Game Developer",
+    title: "Game Designer",
     icon: creator,
   },
 ];
@@ -151,7 +151,7 @@ const projects = [
   {
     name: "DevDiary",
     description:
-      "Markdown-based logging platform built for developers to document bugs, errors, and setup processes across coding projects, helping you debug faster and more efficiently.",
+      "DevDiary is a Markdown-based logging platform built for developers to document bugs, errors, and setup processes across coding projects, helping you debug faster and more efficiently.",
     tags: [
       {
         name: "react",
@@ -162,6 +162,10 @@ const projects = [
         color: "green-text-gradient",
       },
       {
+        name: "Express",
+        color: "orange-text-gradient",
+      },
+      {
         name: "tailwind",
         color: "pink-text-gradient",
       },
@@ -169,30 +173,42 @@ const projects = [
         name: "CodeBERT",
         color: "orange-text-gradient",
       },
+      {
+        name: "Node.js",
+        color: "double-green-text-gradient",
+      },
     ],
     image: devDiary,
     source_code_link: "https://github.com/acm-projects/DevDiary",
   },
   {
-    name: "ShiftOh",
+    name: "Memory Lane",
     description:
-      "Test",
+      "WEHack25 WINNER! Memory Lane is a mobile app designed to connect users with local businesses that match their interests. With intelligent recommendations powered by Python algorithms, you can always find something to do.",
     tags: [
       {
-        name: "react",
+        name: "React Native",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Expo/Go",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "Typescript",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Python",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "Figma",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: memoryLane,
+    source_code_link: "https://github.com/enayas/wehack2025",
   },
   {
     name: "Knight Attack!",
@@ -210,6 +226,10 @@ const projects = [
       {
         name: "Python",
         color: "orange-text-gradient",
+      },
+      {
+        name: "Blender",
+        color: "pink-text-gradient",
       },
     ],
     image: twodplatform,

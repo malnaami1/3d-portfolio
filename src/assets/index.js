@@ -29,11 +29,12 @@ import acm from "./company/acm.png";
 
 
 import devDiary from "./devDiary.png";
-import jobit from "./jobit.png";
 import twodplatform from "./twodplatform.png";
+import memoryLane from "./memoryLane.png";
 
 export {
   twodplatform,
+  memoryLane,
   linkedin,
   logo,
   godot,
@@ -58,6 +59,5 @@ export {
   icode,
   acm,
   devDiary,
-  jobit,
   ue5
 };

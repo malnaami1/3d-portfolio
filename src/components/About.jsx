@@ -42,20 +42,16 @@ const About = () => {
     <>
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>Introduction</p>
-        <h2 className={styles.sectionHeadText}>Overview.</h2>
+        <h2 className={styles.sectionHeadText}>About me.</h2>
       </motion.div>
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
         className="m-4 text-secondary text-[17px] max-w-7xl leading-[30px]">
-          Filler for now: Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-          Ut ante purus, pharetra et ipsum nec, egestas molestie dolor. 
-          Donec commodo, lectus vel maximus elementum, tellus velit consequat quam, quis placerat sem orci ut arcu. 
-          Mauris sit amet aliquam elit, sed tempor massa. Donec lobortis finibus dictum. 
-          Integer eleifend imperdiet dui eget eleifend. Suspendisse varius nunc sit amet convallis sodales. 
-          Nullam nibh turpis, placerat ut porta at, maximus ut erat. Integer sodales non nisl id rhoncus. Duis accumsan tortor hendrerit enim luctus tincidunt. 
-          Fusce quis purus urna. Etiam sit amet eros vel leo sagittis pulvinar. Phasellus commodo felis vel mi scelerisque, vel maximus est porttitor. Quisque at tellus nec arcu feugiat sollicitudin. 
-          Maecenas commodo, leo ac molestie imperdiet, elit leo cursus enim, vel malesuada orci sem ac arcu. Pellentesque et justo felis.
+          My name is Maryam and I am a computer science student at UTDallas. I am an aspiring software engineer and creative developer who loves building interactive, well-designed experiences, from full-stack web apps to immersive games and digital worlds.
+          My work spans web development, systems programming, game design, and mobile app development, and I’m always exploring how I can use technology and creativity and take them a step further.
+          As generic as it sounds, curiosity is my biggest fuel! I am always looking for a hands-on approach to learning, always looking for new ways to push design, improve performance, and increase interactivity. 
+          Whether it’s building a system, developing a dynamic web tool, or publishing an iOS game, I care about the details that make an experience feel seamless and alive.
       </motion.p>
 
       {/* Cards */}
