@@ -31,6 +31,15 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+
+    const { name, email, message } = form;
+
+    // check all fields are filled out
+    if (!name || !email || !message) {
+      alert('Please fill out all fields.');
+      return;
+    }
+
     setLoading(true);
     emailjs.send(
       "service_bqc89nf",
@@ -101,6 +110,7 @@ const Contact = () => {
               onChange={handleChange}
               placeholder="What's your name?"
               className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outlined-none border-none font-medium"
+              required
             />
           </label>
 
@@ -113,6 +123,7 @@ const Contact = () => {
               onChange={handleChange}
               placeholder="What's your email?"
               className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outlined-none border-none font-medium"
+              required
             />
           </label>
 
@@ -125,6 +136,7 @@ const Contact = () => {
               onChange={handleChange}
               placeholder="What would you like to say?"
               className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outlined-none border-none font-medium"
+              required
             />
           </label>
 
